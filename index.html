@@ -9,8 +9,10 @@
     <header>CONSULTAS</header>
     <hr>
     <main>
+        <div>DATOS PERSONALES</div>
         <form action="">
             <table>
+                <!-- PRIMERA LINEA -->
                 <tr>
                     <th>
                         <label for="nombre">Nombres </label>
@@ -21,27 +23,79 @@
                         <input type="text" class="primaryimnut" id="apellido" placeholder="ingresa tus apellidos">
                     </th>
                 </tr>
+                <!-- SEGUNDA LINEA -->
                 <tr>
-                    <th>
+                    <td>
                         <label for="dni">DNI </label>
                         <input type="number" class="primaryinput" id="dni" placeholder="Ingresa tu DNI">
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <label for="telf">Teléfono </label>
                         <input type="number" class="primaryinput" id="telf" placeholder="Ingresa tu Teléfono">
-                    </th>
+                    </td>
                 </tr>
+                <!-- TERCERA LINEA -->
                 <tr>
-                    <th>
+                    <td>
                         <label for="cell">Celular </label>
                         <input type="number" class="primaryinput" id="cell" placeholder="Ingresa tu Celular">
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <label for="email">E-MAIL </label>
                         <input type="text" class="primaryinput" id="email" placeholder="Ingresa tu correo">
-                    </th>
+                    </td    >
                 </tr>
+                <!-- CUARTA LINEA -->
+                <tr>
+                    <td colspan="2">
+                        <label for="direc">Direción </label>
+                        <input type="text" class="primaryinput" id="direc" placeholder="Ingresa tu Direción" width="100%"> 
+                    </td>
+                </tr>
+
             </table> 
+            <table>
+                <tr>
+                    <td>
+                        <form action="#">
+                            <label for="departamento">Departamento</label>
+                            <select name="Departamento" id="departamento">
+                                <option value="Lima">Lima</option>
+                                <option value="Cajamarca">Cajamarca</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="#">
+                            <label for="concesionario">Concesionario</label>
+                            <select name="concesionario" id="concesionario">
+                                <option value="CON1">CONCESIONARIO1</option>
+                                <option value="CON2">CONCESIONARIO2</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="#">
+                            <label for="Mot">Motivo</label>
+                            <select name="Motivo de Consulta" id="Mot">
+                                <option value="mot1">Repuestos</option>
+                                <option value="mot2">Servicio</option>
+                            </select>
+                        </form>
+                    </td>
+                </tr>
+
+
+                
+            </table>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+            
 
             <!-- tipo texto -->
             <!-- <label for="nombre">nombre</label> -->
