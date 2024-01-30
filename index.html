@@ -15,40 +15,40 @@
                 <!-- PRIMERA LINEA -->
                 <tr>
                     <th>
-                        <label for="nombre">Nombres </label>
+                        <!-- <label for="nombre">Nombres </label> -->
                         <input type="text" class="primaryimnut" id="nombre" placeholder="ingresa tus nombres">
                     </th>
                     <th>
-                        <label for="apellido">Apellidos </label>
+                        <!-- <label for="apellido">Apellidos </label> -->
                         <input type="text" class="primaryimnut" id="apellido" placeholder="ingresa tus apellidos">
                     </th>
                 </tr>
                 <!-- SEGUNDA LINEA -->
                 <tr>
                     <td>
-                        <label for="dni">DNI </label>
+                        <!-- <label for="dni">DNI </label> -->
                         <input type="number" class="primaryinput" id="dni" placeholder="Ingresa tu DNI">
                     </td>
                     <td>
-                        <label for="telf">Teléfono </label>
+                        <!-- <label for="telf">Teléfono </label> -->
                         <input type="number" class="primaryinput" id="telf" placeholder="Ingresa tu Teléfono">
                     </td>
                 </tr>
                 <!-- TERCERA LINEA -->
                 <tr>
                     <td>
-                        <label for="cell">Celular </label>
+                        <!-- <label for="cell">Celular </label> -->
                         <input type="number" class="primaryinput" id="cell" placeholder="Ingresa tu Celular">
                     </td>
                     <td>
-                        <label for="email">E-MAIL </label>
+                        <!-- <label for="email">E-MAIL </label> -->
                         <input type="text" class="primaryinput" id="email" placeholder="Ingresa tu correo">
                     </td    >
                 </tr>
                 <!-- CUARTA LINEA -->
                 <tr>
                     <td colspan="2">
-                        <label for="direc">Direción </label>
+                        <!-- <label for="direc">Direción </label> -->
                         <input type="text" class="primaryinput" id="direc" placeholder="Ingresa tu Direción" width="100%"> 
                     </td>
                 </tr>
@@ -58,7 +58,7 @@
                 <tr>
                     <td>
                         <form action="#">
-                            <label for="departamento">Departamento</label>
+                            <!-- <label for="departamento">Departamento</label> -->
                             <select name="Departamento" id="departamento">
                                 <option value="Lima">Lima</option>
                                 <option value="Cajamarca">Cajamarca</option>
@@ -67,7 +67,7 @@
                     </td>
                     <td>
                         <form action="#">
-                            <label for="concesionario">Concesionario</label>
+                            <!-- <label for="concesionario">Concesionario</label> -->
                             <select name="concesionario" id="concesionario">
                                 <option value="CON1">CONCESIONARIO1</option>
                                 <option value="CON2">CONCESIONARIO2</option>
@@ -76,22 +76,54 @@
                     </td>
                     <td>
                         <form action="#">
-                            <label for="Mot">Motivo</label>
+                            <!-- <label for="Mot">Motivo</label> -->
                             <select name="Motivo de Consulta" id="Mot">
                                 <option value="mot1">Repuestos</option>
                                 <option value="mot2">Servicio</option>
                             </select>
                         </form>
                     </td>
-                </tr>
+                </tr>            
+            </table>
+            <br>
+            <div>
+                DATOS DEL VEHÍCULO
+            </div>
+            <TAble>
+                <tr>
+                    <td>
+                        <!-- <label for="PLACA">Placa </label> -->
+                        <input type="text" class="primaryimnut" id="PLACA" placeholder="PLACA">
+                    </td>
+                    <td>
+                        <!-- <label for="PROPIETARIO">Propietario </label> -->
+                        <input type="text" class="primaryimnut" id="PROPIETARIO" placeholder="PROPIETARIO">
+                    </td>
+                    <td>
+                        <form action="#">
+                            <!-- <label for="MODELO">MODELO</label> -->
+                            <select name="MODELO" id="MODELO">
+                                <option value="MODELO1">4RUNNER</option>
+                                <option value="MODELO2">AGYA</option>
+                            </select>
+                        </form>
+                    </td>
 
-
-                
+            </TAble>
+            <table>
+                <td>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="8" required></textarea><br>
+                </td>
+            </tr>
             </table>
             <table>
                 <tr>
                     <td colspan="2">
-                        <input type="submit" value="Enviar">
+                        <input type="submit" value="BORRAR">
+                    </td>
+                    <td colspan="2">
+                        <input type="submit" value="ENVIAR">
                     </td>
                 </tr>
             </table>
